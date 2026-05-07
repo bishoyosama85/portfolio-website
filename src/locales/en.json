@@ -1,0 +1,35 @@
+{
+  "translation": {
+    "nav": {
+      "about": "About",
+      "skills": "Skills",
+      "projects": "Projects",
+      "contact": "Contact"
+    },
+    "hero": {
+      "greeting": "Hi, I am",
+      "role": "Front-End Developer",
+      "description": "I build modern, responsive, and performant web applications with a focus on user experience.",
+      "cta": "View Projects",
+      "contact_cta": "Contact Me"
+    },
+    "about": {
+      "title": "About Me",
+      "description": "I am a passionate Front-End Developer with a strong eye for design and a love for creating intuitive user interfaces. I specialize in building scalable web applications using modern technologies like React, Next.js, and Tailwind CSS. Always eager to learn and stay up-to-date with the latest industry trends."
+    },
+    "skills": {
+      "title": "My Skills"
+    },
+    "projects": {
+      "title": "Featured Projects",
+      "live_demo": "Live Demo",
+      "github": "GitHub"
+    },
+    "contact": {
+      "title": "Get In Touch",
+      "email_placeholder": "Your Email",
+      "message_placeholder": "Your Message",
+      "send": "Send Message"
+    }
+  }
+}
