@@ -26,7 +26,7 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: 'Weather App',
+      title: 'Dashboard',
       description: 'A responsive weather application fetching real-time data from a public API, featuring dark mode and geolocation support.',
       image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
       tags: ['JavaScript', 'HTML5', 'CSS3', 'API'],
