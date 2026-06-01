@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { FiExternalLink, FiGithub } from 'react-icons/fi';
+import img from "../assets/movie.png"
 
 const Projects = () => {
   const { t } = useTranslation();
@@ -8,7 +9,7 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
+      title: 'E-Commerce Website',
       description: 'A full-featured e-commerce platform built with React, Redux, and Tailwind CSS. Features include cart management, product filtering, and a responsive design.',
       image: 'https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
       tags: ['React', 'Tailwind CSS', 'Redux'],
@@ -17,11 +18,11 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: 'Task Management Dashboard',
+      title: 'Movie Website',
       description: 'A beautiful drag-and-drop task management tool using React and Framer Motion for smooth animations and interactions.',
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      tags: ['React', 'Framer Motion', 'Context API'],
-      demoUrl: '#',
+      image: img,
+      tags: ['React', 'Framer Motion', 'Context API', 'Tailwind CSS'],
+      demoUrl: 'https://movie-website-beryl-eight.vercel.app',
       githubUrl: '#'
     },
     {
