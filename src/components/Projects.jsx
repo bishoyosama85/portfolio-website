@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { FiExternalLink, FiGithub } from 'react-icons/fi';
 import img from "../assets/movie.png"
+import img1 from '../assets/food.png'
 
 const Projects = () => {
   const { t } = useTranslation();
@@ -30,8 +31,17 @@ const Projects = () => {
       title: 'Finance Dashboard',
       description: 'A responsive weather application fetching real-time data from a public API, featuring dark mode and geolocation support.',
       image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      tags: ['JavaScript', 'HTML5', 'CSS3', 'API'],
-      demoUrl: 'https://finance-dashboard-delta-gules.vercel.app',
+      tags: ['React', 'Framer Motion', 'Tailwind CSS', 'API'],
+      demoUrl: 'https://dashboard-ruddy-three-30.vercel.app',
+      githubUrl: '#'
+    },
+    {
+      id: 4,
+      title: 'Restaurant Website',
+      description: 'A responsive weather application fetching real-time data from a public API, featuring dark mode and geolocation support.',
+      image: img1,
+      tags: ['React', 'Tailwind CSS', 'React router', 'Framer Motion'],
+      demoUrl: 'https://restaurant-website-peach-two.vercel.app',
       githubUrl: '#'
     }
   ];
