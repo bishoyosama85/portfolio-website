@@ -4,6 +4,7 @@ import { FiExternalLink, FiGithub } from 'react-icons/fi';
 import img from "../assets/movie.png"
 import img1 from '../assets/food.png'
 import img2 from '../assets/FDB.png'
+import img3 from '../assets/EMW.png'
 
 const Projects = () => {
   const { t } = useTranslation();
@@ -13,10 +14,10 @@ const Projects = () => {
       id: 1,
       title: 'E-Commerce Website',
       description: 'A full-featured e-commerce platform built with React, Redux, and Tailwind CSS. Features include cart management, product filtering, and a responsive design.',
-      image: 'https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: img3,
       tags: ['React', 'Next' , 'Tailwind CSS', 'Redux'],
       demoUrl: 'https://ecommerce-app-rho-nine.vercel.app',
-      githubUrl: '#'
+      githubUrl: 'https://github.com/bishoyosama85/ecommerce-app'
     },
     {
       id: 2,
@@ -25,7 +26,7 @@ const Projects = () => {
       image: img,
       tags: ['React', 'Framer Motion', 'Context API', 'Tailwind CSS'],
       demoUrl: 'https://movie-website-beryl-eight.vercel.app',
-      githubUrl: '#'
+      githubUrl: 'https://github.com/bishoyosama85/Movie-Website'
     },
     {
       id: 3,
@@ -34,7 +35,7 @@ const Projects = () => {
       image: img2,
       tags: ['React', 'Framer Motion', 'Tailwind CSS', 'API'],
       demoUrl: 'https://dashboard-ruddy-three-30.vercel.app',
-      githubUrl: '#'
+      githubUrl: 'https://github.com/bishoyosama85/Dashboard'
     },
     {
       id: 4,
@@ -43,7 +44,7 @@ const Projects = () => {
       image: img1,
       tags: ['React', 'Tailwind CSS', 'React router', 'Framer Motion'],
       demoUrl: 'https://restaurant-website-peach-two.vercel.app',
-      githubUrl: '#'
+      githubUrl: 'https://github.com/bishoyosama85/Restaurant-Website'
     }
   ];
 
