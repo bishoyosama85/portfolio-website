@@ -14,8 +14,8 @@ const Projects = () => {
       title: 'E-Commerce Website',
       description: 'A full-featured e-commerce platform built with React, Redux, and Tailwind CSS. Features include cart management, product filtering, and a responsive design.',
       image: 'https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      tags: ['React', 'Tailwind CSS', 'Redux'],
-      demoUrl: '#',
+      tags: ['React', 'Next' , 'Tailwind CSS', 'Redux'],
+      demoUrl: 'https://ecommerce-app-rho-nine.vercel.app',
       githubUrl: '#'
     },
     {
