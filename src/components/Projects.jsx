@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { FiExternalLink, FiGithub } from 'react-icons/fi';
 import img from "../assets/movie.png"
 import img1 from '../assets/food.png'
-import img2 from '../assets/FBD.png'
+import img2 from '../assets/FDB.png'
 
 const Projects = () => {
   const { t } = useTranslation();
